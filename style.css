@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Merienda:wght@600&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+
+.container{
+    height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgb(52, 50, 50,0.6),rgb(52, 50, 50,0.5)),url("wl.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;   
+
+}
+.big-box{
+    height: 380px;
+    width: 800px;
+    background-image: linear-gradient(rgb(67, 64, 64,0.9),rgb(67, 64, 64,0.9));
+    border-radius: 10px;
+    text-align: center;
+    position: relative;
+    top: 170px;    
+    margin: auto;
+
+}
+.big-box h1{
+    font-family: 'Merienda', cursive;
+    position: relative;
+    font-size: 35px;
+    top: 10px;
+    font-weight: bold;
+    padding: 10px;
+    color: rgb(251, 255, 216);
+}
+.box{
+    display: flex;
+    position: relative;
+    top: 35px;
+    width: 70%;
+    height: 180px;
+    border-radius: 10px;
+    margin: auto;
+    justify-content: space-around;
+    background-image: linear-gradient(rgb(117, 114, 114,0.9),rgb(117, 114, 114,0.9));
+
+}
+.s-box{
+    height: 100px;
+    width: 150px;
+    background-color: azure;
+    margin-top: 38px;
+    border-radius: 10px;
+}
+.time{
+    margin-top: 8px;
+    font-size: 50px;
+}
+.s-box p{
+    background-color: rgb(175, 252, 226);
+    border-radius: 10px 10px 0px 0px;
+    padding: 2px;
+    font-weight: bold;
+    color: rgb(54, 52, 52);
+}
+.box-2{
+    height: 50px;
+    width: 40%;
+    position: relative;
+    top: 55px;
+    border-radius: 10px;
+    margin: auto;
+    background-image: linear-gradient(rgb(117, 114, 114,0.9),rgb(117, 114, 114,0.9));
+}
+.Day{
+    height: 30px;
+    width: 200px;
+    position: relative;
+    top: 8px;
+    padding-top: 5px;
+    border-radius: 10px;
+    margin: auto;
+    text-align: center;
+    background-color: azure;
+}
+
+@media (max-width:500px){
+    .container{
+        background-image: none;
+        background-color: rgb(231, 231, 231);
+    }
+}
